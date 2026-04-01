@@ -12,7 +12,7 @@ export const Banner = () => {
                     <div className="flex gap-12 items-center">
                         <div className="text-center">
                             <span className="block text-4xl font-headline font-extrabold text-primary">
-                                15+
+                                4+
                             </span>
                             <span className="text-xs font-label uppercase tracking-tighter text-slate-500">
                                 Años de Experiencia
@@ -20,7 +20,7 @@ export const Banner = () => {
                         </div>
                         <div className="text-center">
                             <span className="block text-4xl font-headline font-extrabold text-primary">
-                                500+
+                                100+
                             </span>
                             <span className="text-xs font-label uppercase tracking-tighter text-slate-500">
                                 Proyectos Visados

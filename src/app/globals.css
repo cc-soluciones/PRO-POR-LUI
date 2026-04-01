@@ -112,3 +112,7 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.clip-diagonal {
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0% 100%);
+}
