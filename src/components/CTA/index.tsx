@@ -23,45 +23,48 @@ export const CTA = ({ id }: Props) => {
           que su negocio necesita hoy.
         </p>
 
-        <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12">
-          
-          <a 
-            href={whatsappLink}
-            className="flex items-center gap-4 group"
-          >
-            <div className="w-14 h-14 flex items-center justify-center bg-secondary text-on-secondary-fixed rounded-lg group-hover:brightness-110 transition">
-              <CellPhone/>
-            </div>
-            <div className="text-left">
-              <p className="text-xs uppercase tracking-widest text-slate-400">
-                Llámanos o escríbenos
-              </p>
-              <p className="text-white font-semibold text-lg tracking-widest">
-                +{phone}
-              </p>
-            </div>
-          </a>
-
-          <div className="hidden md:block w-px h-12 bg-white/20"></div>
-
-          {email && (
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-8 md:gap-0">
+          <div className="flex justify-center">
             <a 
-              href={`mailto:${email}`}
+              href={whatsappLink}
               className="flex items-center gap-4 group"
             >
               <div className="w-14 h-14 flex items-center justify-center bg-secondary text-on-secondary-fixed rounded-lg group-hover:brightness-110 transition">
-                <Mail/>
+                <CellPhone/>
               </div>
               <div className="text-left">
                 <p className="text-xs uppercase tracking-widest text-slate-400">
-                  Correo electrónico
+                  Llámanos o escríbenos
                 </p>
-                <p className="text-white font-semibold text-lg">
-                  {email}
+                <p className="text-white font-semibold text-lg tracking-widest">
+                  +{phone}
                 </p>
               </div>
             </a>
+          </div>
+
+          {/* EMAIL */}
+          {email && (
+            <div className="flex justify-center border-t md:border-t-0 md:border-l border-white/20 pt-8 md:pt-0">
+              <a 
+                href={`mailto:${email}`}
+                className="flex items-center gap-4 group"
+              >
+                <div className="w-14 h-14 flex items-center justify-center bg-secondary text-on-secondary-fixed rounded-lg group-hover:brightness-110 transition">
+                  <Mail/>
+                </div>
+                <div className="text-left">
+                  <p className="text-xs uppercase tracking-widest text-slate-400">
+                    Correo electrónico
+                  </p>
+                  <p className="text-white font-semibold text-lg">
+                    {email}
+                  </p>
+                </div>
+              </a>
+            </div>
           )}
+
         </div>
 
         {/* Bottom accent */}

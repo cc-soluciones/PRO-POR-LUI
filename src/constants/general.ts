@@ -1,5 +1,5 @@
 export const nameCompany = "2S Gestión Empresa";
-export const address = "Av. Providencia 1234, Santiago, Chile";
+export const address = "Atención remota en todo Chile · Base en Santiago y Región de Los Ríos";
 export const phone = "569 86209160";
 export const email = "2sgestionempresa@gmail.com";
 

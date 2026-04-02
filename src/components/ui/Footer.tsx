@@ -1,4 +1,4 @@
-import { nameCompany, copyright, address, descriptionFooter } from "@/constants/general";
+import { nameCompany, copyright, address, descriptionFooter, navItem } from "@/constants/general";
 
 export const Footer = () => {
     return (
@@ -22,38 +22,16 @@ export const Footer = () => {
                             Links
                         </h4>
                         <ul className="space-y-2">
-                            <li>
-                                <a
-                                    className="text-slate-400 hover:text-white transition-transform hover:translate-x-1 inline-block text-sm"
-                                    href="#home"
-                                >
-                                    Inicio
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="text-slate-400 hover:text-white transition-transform hover:translate-x-1 inline-block text-sm"
-                                    href="#about"
-                                >
-                                    Nosotros
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="text-slate-400 hover:text-white transition-transform hover:translate-x-1 inline-block text-sm"
-                                    href="#services"
-                                >
-                                    Servicios
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    className="text-slate-400 hover:text-white transition-transform hover:translate-x-1 inline-block text-sm"
-                                    href="#contact"
-                                >
-                                    Contacto
-                                </a>
-                            </li>
+                            {navItem.map((item, index) => (
+                                <li key={index}>
+                                    <a
+                                        href={item.href}
+                                        className="text-slate-400 hover:text-white transition-transform hover:translate-x-1 inline-block text-sm"
+                                    >
+                                        {item.name}
+                                    </a>
+                                </li>
+                            ))}
                         </ul>
                     </div>                    
                 </div>
