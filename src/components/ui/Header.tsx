@@ -19,7 +19,7 @@ export const Header = () => {
     }, []);
 
     return (
-        <nav className="fixed top-0 w-full z-50 bg-slate-50/80 backdrop-blur-md shadow-sm">
+        <nav className="fixed top-0 w-full z-50 bg-[#f8f9fa] backdrop-blur-md shadow-sm">
             <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4 w-full">
                                
                 <button
@@ -29,7 +29,7 @@ export const Header = () => {
                     <MenuIcon className="w-6 h-6" />
                 </button>
 
-                <div className="absolute w-60 left-1/2 -translate-x-1/2 lg:static lg:translate-x-0 text-xl font-headline font-extrabold tracking-tighter text-[#000b20] uppercase">
+                <div className="absolute w-60 left-1/2 -translate-x-1/2 text-center lg:static lg:translate-x-0 text-xl font-headline font-extrabold tracking-tighter text-[#000b20] uppercase">
                     {nameCompany}
                 </div>
 
@@ -54,7 +54,7 @@ export const Header = () => {
             </div>
             
             {isOpen && (
-                <div className="lg:hidden flex flex-col items-center justify-center gap-6 py-6 bg-slate-50 shadow-md">
+                <div className="lg:hidden flex flex-col items-center justify-center gap-6 py-6 bg-[#f8f9fa] shadow-sm">
                     {navItem.map((item) => (
                         <a
                             key={item.href}
@@ -65,7 +65,7 @@ export const Header = () => {
                             {item.name}
                         </a>
                     ))}
-                    
+
                     <a
                         href={whatsappLink}
                         onClick={() => setIsOpen(false)}
