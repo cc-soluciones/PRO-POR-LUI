@@ -9,10 +9,10 @@ export const Footer = () => {
                         src="/logo.webp" 
                         className="w-full object-contain"
                     />
-                    <div className="text-lg font-headline font-bold text-white uppercase tracking-tighter">
+                    <div className="text-lg font-headline font-bold text-white uppercase tracking-tighter text-center">
                         {nameCompany}
                     </div>
-                    <p className="font-work-sans text-sm tracking-normal text-slate-300 leading-relaxed max-w-xs">
+                    <p className="text-center mx-auto font-work-sans text-sm tracking-normal text-slate-300 leading-relaxed max-w-xs">
                         {descriptionFooter}
                     </p>
                 </div>
