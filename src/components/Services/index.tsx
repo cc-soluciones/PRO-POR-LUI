@@ -5,8 +5,8 @@ import { services } from "@/constants/services";
 export const Services = () => {
     return (
         <section id="services" className="w-full py-24 bg-surface">
-            <div className="max-w-7xl mx-auto px-8">
-                <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 mb-16 items-center">
+            <div className="max-w-7xl mx-auto px-8 ">
+                <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 mb-16 items-center  border-r-4 border-secondary pr-8">
                     <div>
                         <p className="font-label text-secondary font-semibold uppercase tracking-[0.2em] mb-4">
                             {services.badge}

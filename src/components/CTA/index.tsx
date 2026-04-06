@@ -42,8 +42,7 @@ export const CTA = ({ id }: Props) => {
               </div>
             </a>
           </div>
-
-          {/* EMAIL */}
+          
           {email && (
             <div className="flex justify-center border-t md:border-t-0 md:border-l border-white/20 pt-8 md:pt-0">
               <a 
@@ -64,10 +63,8 @@ export const CTA = ({ id }: Props) => {
               </a>
             </div>
           )}
-
         </div>
-
-        {/* Bottom accent */}
+        
         <div className="mt-16 h-1 w-24 bg-secondary-fixed mx-auto"></div>
       </div>
     </section>

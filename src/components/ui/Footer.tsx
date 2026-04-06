@@ -35,7 +35,7 @@ export const Footer = () => {
                         </ul>
                     </div>                    
                 </div>
-                <div className="flex flex-col justify-between items-end">                    
+                <div className="flex flex-col justify-center items-center text-center">                    
                     <div className="text-[#ffddae] font-label text-xs uppercase tracking-widest mt-8">
                         {address}
                     </div>

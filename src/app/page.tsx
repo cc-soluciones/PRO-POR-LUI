@@ -4,6 +4,7 @@ import { About } from "@/components/About";
 import { Services } from "@/components/Services";
 import { CTA } from "@/components/CTA";
 import { Calls } from "@/components/Calls";
+import { Contact } from "@/components/Contact";
 
 export default function Page() {
     return (
@@ -14,6 +15,7 @@ export default function Page() {
             <Services/>
             <CTA id="CTA"/>
             <Calls id="calls"/>
+            <Contact/>
         </>
     );
 }
