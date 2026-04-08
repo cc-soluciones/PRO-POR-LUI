@@ -2,7 +2,7 @@ import { nameCompany, copyright, address, descriptionFooter, navItem } from "@/c
 
 export const Footer = () => {
     return (
-        <footer className="bg-[#000b20] pt-12 mt-auto w-full">
+        <footer className="bg-linear-to-b from-blue-light to-blue-dark pt-12 mt-auto w-full">
             <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div className="space-y-6">
                     <img

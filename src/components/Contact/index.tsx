@@ -148,7 +148,7 @@ ${form.message}
 
                         <button
                             type="submit"
-                            className="bg-primary text-on-primary py-3 text-xs uppercase tracking-widest font-bold hover:bg-secondary transition-colors duration-300 active:scale-95 cursor-pointer"
+                            className="bg-blue-light text-on-primary py-3 text-xs uppercase tracking-widest font-bold hover:bg-secondary transition-colors duration-300 active:scale-95 cursor-pointer"
                         >
                             Enviar por WhatsApp
                         </button>

@@ -89,7 +89,7 @@ export const Calls = ({}: Props) => {
                 <div className="text-center mt-16">
                     <a
                     href={calls.cta.link}
-                    className="inline-block bg-on-surface text-white px-8 py-3 font-semibold hover:opacity-90 transition"
+                    className="inline-block bg-blue-light  text-white px-8 py-3 font-semibold hover:opacity-90 transition"
                     >
                     {calls.cta.text}
                     </a>

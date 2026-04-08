@@ -8,7 +8,7 @@ interface Props {
 
 export const CTA = ({ id }: Props) => {
   return (
-    <section id={id} className="relative py-24 bg-primary overflow-hidden">  
+    <section id={id} className="relative py-24 bg-[#06589E] overflow-hidden">  
       <div className="absolute inset-0">
         <div className="absolute right-0 top-0 w-1/3 h-full bg-primary-container opacity-40 clip-diagonal"></div>
       </div>

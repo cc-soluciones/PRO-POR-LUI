@@ -47,7 +47,7 @@ export const Header = () => {
                 
                 <a
                     href={whatsappLink}
-                    className="hidden lg:block bg-primary text-on-primary px-6 py-2.5 font-label font-bold text-xs uppercase tracking-widest hover:bg-secondary transition-colors duration-300 active:scale-95"
+                    className="hidden lg:block bg-blue-light text-on-primary px-6 py-2.5 font-label font-bold text-xs uppercase tracking-widest hover:bg-secondary transition-colors duration-300 active:scale-95"
                 >
                     Consulta
                 </a>
@@ -69,7 +69,7 @@ export const Header = () => {
                     <a
                         href={whatsappLink}
                         onClick={() => setIsOpen(false)}
-                        className="bg-primary text-on-primary px-6 py-2.5 font-bold text-xs uppercase tracking-widest hover:bg-secondary transition-colors duration-300"
+                        className="bg-blue-light text-on-primary px-6 py-2.5 font-bold text-xs uppercase tracking-widest hover:bg-secondary transition-colors duration-300"
                     >
                         Consulta
                     </a>

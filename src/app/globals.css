@@ -48,6 +48,8 @@
   --primary-fixed-dim: #b4c7ec;
   --primary-container: #0d223f;
   --on-tertiary-fixed-variant: #2b486c;
+  --blue-dark: #013c8a;
+  --blue-light: #06589E;
 }
 
 @theme inline {
@@ -98,6 +100,8 @@
   --color-primary-fixed-dim: var(--primary-fixed-dim);
   --color-primary-container: var(--primary-container);
   --color-on-tertiary-fixed-variant: var(--on-tertiary-fixed-variant);
+  --color-blue-dark:var(--blue-dark);
+  --color-blue-light:var(--blue-light);
 }
 
 @media (prefers-color-scheme: dark) {

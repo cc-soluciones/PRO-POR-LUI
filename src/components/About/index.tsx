@@ -22,9 +22,9 @@ export const About = () => {
                 <div className="max-w-7xl mx-auto  grid md:grid-cols-2 gap-12 items-center">                
                     <div className="relative">
                         <img
-                            src="/about.webp"
+                            src="/luis_correa_contador.webp"
                             alt="Consultoría"
-                            className="w-full h-[400px] object-contain rounded-xl shadow-md"
+                            className="w-full h-[400px] md:h-125 object-cover object-[40%_20%] lg:object-[0%_12%]  rounded-xl shadow-md"
                         />
                         <div className="absolute bottom-4 left-4 bg-black text-white text-sm px-4 py-2 rounded-md italic">
                             “{about.quote}”
@@ -44,7 +44,7 @@ export const About = () => {
                                     key={index}
                                     className={`p-5 ${
                                         card.variant === "dark"
-                                            ? "bg-gray-900 text-white"
+                                            ? "bg-[#013c8a] text-white"
                                             : "bg-gray-100 text-gray-800"
                                     }`}
                                 >

@@ -16,6 +16,7 @@ export default function Page() {
             <CTA id="CTA"/>
             <Calls id="calls"/>
             <Contact/>
+            
         </>
     );
 }

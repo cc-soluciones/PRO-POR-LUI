@@ -8,7 +8,7 @@ export const Hero = ({
     id 
 }: Props) => {
     return (
-        <section id={id} className="relative pt-20 overflow-hidden bg-primary min-h-[921px] flex items-center">
+        <section id={id} className="relative pt-20 overflow-hidden bg-gradient-to-b from-[#0d89f5] to-[#2a80f0] min-h-[921px] flex items-center">
             <div className="absolute inset-0 z-0">
                 <img
                     alt=""
