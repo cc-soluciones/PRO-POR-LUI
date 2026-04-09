@@ -10,7 +10,7 @@ export const calls = {
       description:
         "Formulación de proyectos con enfoque territorial y cultural, maximizando el impacto social y económico.",
       image: "/conadi.webp",
-      link: "https://www.conadi.gob.cl",
+      link: "https://www.conadi.gob.cl/gobiernotransparente/transparencia/Concursos/Concursos.html",
     },
     {
       title: "CORFO",

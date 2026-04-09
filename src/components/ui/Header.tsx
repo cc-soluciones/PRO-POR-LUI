@@ -29,8 +29,11 @@ export const Header = () => {
                     <MenuIcon className="w-6 h-6" />
                 </button>
 
-                <div className="absolute w-60 left-1/2 -translate-x-1/2 text-center lg:static lg:translate-x-0 text-xl font-headline font-extrabold tracking-tighter text-[#000b20] uppercase">
-                    {nameCompany}
+                <div className="absolute w-80 left-1/2 -translate-x-1/2 text-center lg:static lg:translate-x-0 text-xl font-headline font-extrabold tracking-tighter text-[#000b20] uppercase">
+                    <div className="flex items-center justify-center gap-2">
+                        <img src="/about.webp" alt="2S" className="w-14 h-14" />
+                        <span>{nameCompany}</span>
+                    </div>
                 </div>
 
                 <div className="hidden lg:flex items-center gap-x-8">

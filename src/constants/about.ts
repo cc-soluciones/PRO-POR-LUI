@@ -3,6 +3,12 @@ export const about = {
 
     title: "Dirección estratégica empresarial",
 
+    images: [
+        "/luis_correa_contador_1.webp",
+        "/luis_correa_contador_2.webp",
+        "/luis_correa_contador_3.webp"
+    ],
+
     description: [
         "Somos una consultora enfocada en acompañar a emprendedores, pymes y empresas en su crecimiento. A lo largo de los años hemos trabajado directamente en terreno, entendiendo cómo funcionan los procesos reales de financiamiento, gestión y desarrollo de negocios.",
         

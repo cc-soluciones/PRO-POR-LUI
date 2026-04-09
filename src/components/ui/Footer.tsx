@@ -6,11 +6,11 @@ export const Footer = () => {
             <div className="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-3 gap-12">
                 <div className="space-y-6">
                     <img
-                        src="/logo.webp" 
+                        src="/logo.png" 
                         className="w-full object-contain"
                     />
                     <div className="text-lg font-headline font-bold text-white uppercase tracking-tighter text-center">
-                        {nameCompany}
+                        2S {nameCompany}
                     </div>
                     <p className="text-center mx-auto font-work-sans text-sm tracking-normal text-slate-300 leading-relaxed max-w-xs">
                         {descriptionFooter}

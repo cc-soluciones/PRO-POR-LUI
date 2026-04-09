@@ -1,6 +1,21 @@
+"use client"
+
+import { useState, useEffect } from "react";
 import { about } from "@/constants/about";
 
 export const About = () => {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+useEffect(() => {
+    const interval = setInterval(() => {
+        setCurrentIndex((prev) =>
+            prev === about.images.length - 1 ? 0 : prev + 1
+        );
+    }, 4000); // cambia cada 4s
+
+    return () => clearInterval(interval);
+    }, []);
+
     return (
         <section id="about" className="w-full py-24 bg-white">
             <div className="max-w-7xl mx-auto px-8">
@@ -20,15 +35,22 @@ export const About = () => {
                 </div>
                 
                 <div className="max-w-7xl mx-auto  grid md:grid-cols-2 gap-12 items-center">                
-                    <div className="relative">
-                        <img
-                            src="/luis_correa_contador.webp"
-                            alt="Consultoría"
-                            className="w-full h-[400px] md:h-125 object-cover object-[40%_20%] lg:object-[0%_12%]  rounded-xl shadow-md"
-                        />
-                        <div className="absolute bottom-4 left-4 bg-black text-white text-sm px-4 py-2 rounded-md italic">
+                    <div className="relative shadow-md h-[400px] md:h-125">    
+                        {about.images.map((img, index) => (
+                            <img
+                                key={index}
+                                src={img}
+                                alt="Consultoría"
+                                className={`absolute w-full h-full object-cover object-[40%_20%] lg:object-[0%_12%] transition-opacity duration-700 ${
+                                    index === currentIndex ? "opacity-100" : "opacity-0"
+                                }`}
+                            />
+                        ))}
+
+                        <div className="absolute -bottom-5 left-14 bg-black text-white text-sm px-4 py-2 italic mt-10">
                             “{about.quote}”
                         </div>
+
                     </div>
                     
                     <div>
