@@ -47,7 +47,7 @@ useEffect(() => {
                             />
                         ))}
 
-                        <div className="absolute -bottom-5 left-14 bg-black text-white text-sm px-4 py-2 italic mt-10">
+                        <div className="absolute bottom-4 left-4 xl:-bottom-5 xl:left-14 bg-black text-white text-sm px-4 py-2 italic mt-10">
                             “{about.quote}”
                         </div>
 
