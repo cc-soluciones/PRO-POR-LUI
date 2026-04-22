@@ -10,7 +10,7 @@ export const about = {
     ],
 
     description: [
-        "Somos una consultora enfocada en acompañar a emprendedores, pymes y empresas en su crecimiento. A lo largo de los años hemos trabajado directamente en terreno, entendiendo cómo funcionan los procesos reales de financiamiento, gestión y desarrollo de negocios.",
+        "Somos una consultora especializada en gestión, formulación de proyectos y asesoría integral, trabajamos con emprendedores, micro, pequeñas y medianas empresas, además de organizaciones sociales, comunidades y fundaciones.",
         
         "Nuestro enfoque combina asesoría estratégica, gestión de proyectos y contabilidad, adaptándonos a cada cliente para entregar soluciones concretas y sostenibles en el tiempo."
     ],

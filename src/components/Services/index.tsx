@@ -51,7 +51,7 @@ export const Services = () => {
                                 ))}
                             </ul>
                             
-                            <button className="group mx-auto border border-gold/30 bg-white/5 backdrop-blur-sm text-secondary font-label font-bold uppercase tracking-widest text-sm flex items-center gap-2 px-6 py-3 hover:bg-blue-950 transition-all cursor-pointer">
+                            <button className="group mx-auto border border-gold/30 bg-white/5 backdrop-blur-sm text-secondary font-label font-bold uppercase tracking-widest text-sm flex items-center gap-2 px-6 py-3 hover:text-white hover:bg-blue-light transition-all cursor-pointer">
                                 {service.cta}
                                 <span className="transition-transform group-hover:translate-x-1">
                                     →

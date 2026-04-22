@@ -24,27 +24,24 @@ export const Hero = ({
                         Experiencia y visión estratégica
                     </span>
                     <h1 className="text-5xl md:text-7xl font-headline font-extrabold text-white leading-[1.1] tracking-tight mb-8">
-                        Consultoría de Negocios y Contabilidad para
-                        Emprendedores y Empresas
+                        Impulsa tu negocio con financiamiento, gestión y estrategia clara
                     </h1>
                     <div className="diagonal-accent mb-8"></div>
                     <p className="text-xl text-slate-300 max-w-2xl font-light mb-10 leading-relaxed">
-                        Transformamos la complejidad financiera en claridad
-                        estratégica. Especialistas en gestión de proyectos y
-                        cumplimiento contable integral.
+                        Asesoramos a emprendedores, pymes y organizaciones en la formulación de proyectos, gestión contable y acceso a oportunidades de financiamiento.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4">
                         <a
                             className="bg-secondary-fixed text-on-secondary-fixed px-8 py-4 font-label font-bold uppercase tracking-widest text-sm hover:brightness-110 transition-all"
                             href="#services"
                         >
-                            Explorar Servicios
+                            Agenda tu Asesoría
                         </a>
                         <a 
                             className="border border-white/30 text-white px-8 py-4 font-label font-bold uppercase tracking-widest text-sm hover:bg-white/10 transition-all backdrop-blur-sm"
                             href={whatsappLink}
                         >
-                            Contactar por WhatsApp
+                            Escríbenos por WhatsApp
                         </a>
                     </div>
                 </div>

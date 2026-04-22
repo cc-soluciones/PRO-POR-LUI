@@ -1,51 +1,60 @@
 import Bank from "@/assets/Bank";
 import Finance from "@/assets/Finance";
+
 export const services = {
-    badge: "Nuestras soluciones",
+  badge: "Nuestras soluciones",
 
-    title: "Áreas de Especialización",
+  title: "Áreas de Especialización",
 
-    description:
-        "Ofrecemos un enfoque holístico que integra la administración estratégica con la precisión contable.",
+  description:
+    "Acompañamos a emprendedores y empresas desde la idea hasta el crecimiento, integrando financiamiento, estrategia y gestión.",
 
-    items: [
+  items: [
+    {
+      title: "Desarrollo y Financiamiento",
+      icon: Finance,
+      features: [
         {
-            title: "Consultoría de Negocios",
-            icon: Finance,
-            features: [
-                {
-                    title: "Fondos Concursables",
-                    text: "Acompañamiento completo desde el diagnóstico hasta la adjudicación de fondos estatales.",
-                },
-                {
-                    title: "Gestión y Formulación de Proyectos",
-                    text: "Diseño metodológico y financiero de iniciativas empresariales de alto impacto.",
-                },
-                {
-                    title: "Modelamiento de Negocio",
-                    text: "Optimización de estructuras de costos y flujos de ingresos.",
-                },
-            ],
-            cta: "Solicitar presupuesto",
+          title: "Fondos Concursables",
+          text: "Postulación a programas como Sercotec, FOSIS, CORFO y otros, con acompañamiento completo.",
         },
         {
-            title: "Contabilidad General",
-            icon: Bank,
-            features: [
-                {
-                    title: "Servicios de Contabilidad General",
-                    text: "Mantenimiento de libros, estados financieros y balances mensuales de alta precisión.",
-                },
-                {
-                    title: "Cumplimiento Tributario",
-                    text: "Declaraciones de impuestos (IVA, Renta) y optimización de carga tributaria legal.",
-                },
-                {
-                    title: "Asesoría Laboral",
-                    text: "Liquidaciones de sueldos, contratos y trámites en la Inspección del Trabajo.",
-                },
-            ],
-            cta: "Ver detalles del servicio",
+          title: "Formulación de Proyectos",
+          text: "Diseño técnico y financiero de proyectos con alto potencial de adjudicación.",
         },
-    ],
+        {
+          title: "Modelo de Negocio",
+          text: "Estructuración estratégica para validar, ordenar y escalar tu emprendimiento.",
+        },
+        {
+          title: "Formalización de Emprendimientos",
+          text: "Inicio de actividades, estructura legal y orden administrativo desde cero.",
+        },
+      ],
+      cta: "Postular a financiamiento",
+    },
+    {
+      title: "Gestión Empresarial",
+      icon: Bank,
+      features: [
+        {
+          title: "Contabilidad General",
+          text: "Gestión contable completa, estados financieros y control del negocio.",
+        },
+        {
+          title: "Cumplimiento Tributario",
+          text: "Declaraciones de impuestos y optimización tributaria dentro del marco legal.",
+        },
+        {
+          title: "Licitaciones en Mercado Público",
+          text: "Asesoría para vender al Estado y participar en oportunidades públicas.",
+        },
+        {
+          title: "Asesoría Integral Pyme",
+          text: "Acompañamiento estratégico continuo según la etapa de tu empresa.",
+        },
+      ],
+      cta: "Ordenar mi negocio",
+    },
+  ],
 };

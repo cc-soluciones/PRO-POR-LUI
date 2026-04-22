@@ -34,10 +34,11 @@ export const Calls = ({}: Props) => {
                     >
                     <div className="relative h-64 w-full overflow-hidden rounded-t-xl">
                         <Image
-                        src={item.image}
-                        alt={item.title}
-                        fill
-                        className="object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300"
+                            src={item.image}
+                            alt={item.title}
+                            fill
+                            sizes="(max-width: 768px) 100vw, 33vw"
+                            className="object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300"
                         />
                     </div>
 
@@ -77,7 +78,7 @@ export const Calls = ({}: Props) => {
                         >
                             <Image
                             src={img.src}
-                            alt={img.alt}
+                            alt={img.alt}                            
                             width={1400}
                             height={800}
                             className="w-full h-auto rounded-xl shadow-lg hover:scale-[1.01] transition duration-300 cursor-pointer"

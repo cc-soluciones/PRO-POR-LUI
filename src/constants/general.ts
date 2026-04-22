@@ -1,6 +1,6 @@
 export const nameCompany = "Gestión Empresa";
 export const address = "Atención remota en todo Chile · Base en Santiago y Región de Los Ríos";
-export const phone = "569 86209160";
+export const phone = "56986209160";
 export const email = "2sgestionempresa@gmail.com";
 
 export const navItem = [
@@ -26,7 +26,12 @@ export const navItem = [
     },
 ];
 
-export const copyright = `© ${new Date().getFullYear()} CC soluciones. todos los derechos reservados.`;
+export const copyright = `© ${new Date().getFullYear()} CC soluciones. Todos los derechos reservados.`;
 export const descriptionFooter = "Asesoría integral en contabilidad y gestión de proyectos para empresas que buscan excelencia y crecimiento en el mercado chileno.";
 
 export const whatsappLink = `https://wa.me/${phone}`;
+export const socialLinks = {
+    instagram: "https://instagram.com/tu_usuario",
+    facebook: "https://facebook.com/tu_pagina",
+    linkedin: "https://linkedin.com/company/tu_empresa",
+};

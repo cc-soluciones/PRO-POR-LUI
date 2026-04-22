@@ -1,4 +1,8 @@
 import { nameCompany, copyright, address, descriptionFooter, navItem } from "@/constants/general";
+import InstagramIcon from "@/assets/InstagramIcon";
+import FacebookIcon from "@/assets/FacebookIcon";
+import LinkedInIcon from "@/assets/LinkedInIcon";
+import { socialLinks } from "@/constants/general";
 
 export const Footer = () => {
     return (
@@ -35,13 +39,67 @@ export const Footer = () => {
                         </ul>
                     </div>                    
                 </div>
-                <div className="flex flex-col justify-center items-center text-center">                    
-                    <div className="text-[#ffddae] font-label text-xs uppercase tracking-widest mt-8">
+                <div className="flex flex-col items-center text-center space-y-6">
+                    <div>
+                        <h4 className="text-white font-headline font-bold text-sm uppercase mb-4">
+                        Socios estratégicos
+                        </h4>
+
+                        <div className="grid grid-cols-1 gap-4 items-center">
+                        <img src="/fundacion.webp" className="h-30 object-contain mx-auto" />                        
+                        </div>
+                    </div>                    
+                    <div className="text-[#ffddae] font-label text-xs uppercase tracking-widest">
                         {address}
+                    </div>
+                    <div className="flex gap-5 pt-2 items-center">
+                        <a
+                            href={socialLinks.instagram}
+                            target="_blank"
+                            className="
+                                text-slate-300 
+                                transition 
+                                hover:text-pink-500 
+                                active:text-pink-500
+                                md:hover:text-pink-500
+                            "
+                        >
+                            <InstagramIcon />
+                        </a>
+
+                        <a
+                            href={socialLinks.facebook}
+                            target="_blank"
+                            className="
+                                text-slate-300 
+                                transition 
+                                hover:text-blue-500 
+                                active:text-blue-500
+                                md:hover:text-blue-500
+                            "
+                        >
+                            <FacebookIcon />
+                        </a>
+
+                        <a
+                            href={socialLinks.linkedin}
+                            target="_blank"
+                            className="
+                                text-slate-300 
+                                transition 
+                                hover:text-sky-500 
+                                active:text-sky-500
+                                md:hover:text-sky-500
+                            "
+                        >
+                            <LinkedInIcon />
+                        </a>
+
                     </div>
                 </div>
                 
             </div>
+            
             <p className="pt-6 mt-12 border-t max-w-7xl mx-auto border-white/10 py-6 text-slate-400 text-sm text-center  leading-loose">
                         {copyright}
             </p>

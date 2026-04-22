@@ -19,9 +19,9 @@ useEffect(() => {
     return (
         <section id="about" className="w-full py-24 bg-white">
             <div className="max-w-7xl mx-auto px-8">
-                <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 mb-16 items-center ">
+                <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 mb-16 items-center border-r-4 border-secondary ">
                     <p className="text-on-surface-variant max-w-md md:mr-auto leading-relaxed italic font-extralight">
-                        {about.quote2}
+                        "{about.quote2}"
                     </p>
                     <div>
                         <p className="font-label text-secondary font-semibold uppercase tracking-[0.2em] mb-4 ">

@@ -5,6 +5,7 @@ import { Services } from "@/components/Services";
 import { CTA } from "@/components/CTA";
 import { Calls } from "@/components/Calls";
 import { Contact } from "@/components/Contact";
+import { Impact } from "@/components/Impact";
 
 export default function Page() {
     return (
@@ -12,6 +13,7 @@ export default function Page() {
             <Hero id="home" />
             <Banner/>
             <About/>
+            <Impact/>
             <Services/>
             <CTA id="CTA"/>
             <Calls id="calls"/>

@@ -16,16 +16,37 @@ export const calls = {
       title: "CORFO",
       description:
         "Asesoría experta en la postulación y ejecución técnica de fondos para la innovación y el emprendimiento dinámico.",
-      image: "/corfo.png",
-      link: "https://www.corfo.cl",
+      image: "/corfo.webp",
+      link: "https://www.corfo.gob.cl/sites/cpp/programasyconvocatorias/",
     },
     {
       title: "SERCOTEC",
       description:
         "Gestión técnica de Capital Abeja, Semilla y otros instrumentos de fomento para la pequeña y mediana empresa.",
-      image: "/sercotec.png",
-      link: "https://www.sercotec.cl",
+      image: "/sercotec.webp",
+      link: "https://www.sercotec.cl/postulaciones-abiertas/",
     },
+    {
+      title: "FOSIS",
+      description:
+        "Apoyo a emprendimientos en etapa inicial, enfocado en inclusión social, formalización y generación de ingresos sostenibles.",
+      image: "/fosis.webp",
+      link: "https://www.fosis.gob.cl/es/postulaciones/",
+    },
+    {
+      title: "Fundación Luksic",
+      description:
+        "Postulación al programa Impulso Inicial, orientado a emprendedores que buscan financiamiento y acompañamiento para iniciar o fortalecer su negocio.",
+      image: "/luksic.webp",
+      link: "https://www.impulsoinicial.cl",
+    },
+   {
+      title: "Asesoría en Fondos Públicos",
+      description:
+        "Acompañamos a emprendedores, pymes y organizaciones en la postulación a fondos públicos como INDAP, SERCOTEC, CORFO, FOSIS y Mercado Público, entregando orientación técnica, estratégica y documental para aumentar las probabilidades de adjudicación.",
+      image: "/mercadopublico.webp",
+      link: "https://www.mercadopublico.cl/Home",
+    }
   ],
 
   calendar: {
