@@ -5,9 +5,11 @@ interface Props {
   id: string;
 }
 
-export const Calls = ({}: Props) => {
+export const Calls = ({
+    id
+}: Props) => {
   return (
-    <section id="calls" className="w-full py-24 bg-surface-container-low">
+    <section id={id} className="w-full py-24 bg-surface-container-low">
         <div className="max-w-7xl mx-auto px-8">            
             <div className="text-center mb-20">
                 <p className="font-label text-secondary font-semibold uppercase tracking-[0.2em] mb-4">
@@ -32,13 +34,13 @@ export const Calls = ({}: Props) => {
                     target="_blank"
                     className="group flex flex-col h-full bg-surface border border-outline-variant rounded-xl hover:shadow-xl hover:-translate-y-1 transition-all duration-300"
                     >
-                    <div className="relative h-64 w-full overflow-hidden rounded-t-xl">
+                    <div className="relative h-64 w-full bg-white overflow-hidden rounded-t-xl">
                         <Image
                             src={item.image}
                             alt={item.title}
                             fill
                             sizes="(max-width: 768px) 100vw, 33vw"
-                            className="object-contain opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-300"
+                            className="object-contain group-hover:scale-105 transition-all duration-300"
                         />
                     </div>
 

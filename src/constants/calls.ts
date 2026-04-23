@@ -40,10 +40,10 @@ export const calls = {
       image: "/luksic.webp",
       link: "https://www.impulsoinicial.cl",
     },
-   {
+    {
       title: "Asesoría en Fondos Públicos",
       description:
-        "Acompañamos a emprendedores, pymes y organizaciones en la postulación a fondos públicos como INDAP, SERCOTEC, CORFO, FOSIS y Mercado Público, entregando orientación técnica, estratégica y documental para aumentar las probabilidades de adjudicación.",
+        "Te ayudamos a registrar tu empresa, participar en licitaciones y vender al Estado a través de la plataforma de Chile Compra",
       image: "/mercadopublico.webp",
       link: "https://www.mercadopublico.cl/Home",
     }

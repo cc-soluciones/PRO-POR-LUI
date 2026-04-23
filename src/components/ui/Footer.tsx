@@ -1,6 +1,7 @@
 import { nameCompany, copyright, address, descriptionFooter, navItem } from "@/constants/general";
 import InstagramIcon from "@/assets/InstagramIcon";
 import FacebookIcon from "@/assets/FacebookIcon";
+import { socios } from "@/constants/general";
 import Mail from "@/assets/Mail";
 import { socialLinks, email } from "@/constants/general";
 
@@ -46,7 +47,21 @@ export const Footer = () => {
                         </h4>
 
                         <div className="grid grid-cols-1 gap-4 items-center">
-                        <img src="/fundacion.webp" className="h-30 object-contain mx-auto" />                        
+                            {socios.map((socio, index) => (
+                                <a
+                                    key={index}
+                                    href={socio.instagram}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-block transition transform hover:scale-105"
+                                >
+                                    <img
+                                        src={socio.img}
+                                        alt={socio.name}
+                                        className="h-30 object-contain mx-auto cursor-pointer"
+                                    />
+                                </a>
+                            ))}
                         </div>
                     </div>                    
                     <div className="text-[#ffddae] font-label text-xs uppercase tracking-widest">
@@ -56,7 +71,7 @@ export const Footer = () => {
                         <a
                             href={socialLinks.instagram}
                             target="_blank"
-                            className="text-slate-300 transition duration-200 hover:text-pink-500 hover:scale-110 active:text-pink-500 md:hover:text-pink-500"
+                            className="text-pink-500 md:text-slate-300 transition duration-200 hover:text-pink-500 hover:scale-110 active:text-pink-500 "
                         >
                             <InstagramIcon />
                         </a>
@@ -64,15 +79,14 @@ export const Footer = () => {
                         <a
                             href={socialLinks.facebook}
                             target="_blank"
-                            className="text-slate-300 transition duration-200 hover:text-blue-500 hover:scale-110 active:text-blue-500 md:hover:text-blue-500"
+                            className="text-blue-500 md:text-slate-300 transition duration-200 hover:text-blue-500 hover:scale-110 active:text-blue-500"
                         >
                             <FacebookIcon />
                         </a>
-
-                        {/* EMAIL */}
+                        
                         <a
                             href={`mailto:${email}`}
-                            className="text-slate-300 transition duration-200 hover:text-yellow-400 hover:scale-110 active:text-yellow-400 md:hover:text-yellow-400"
+                            className="text-yellow-400 md:text-slate-300 transition duration-200 hover:text-yellow-400 hover:scale-110 active:text-yellow-400"
                         >
                             <Mail />
                         </a>

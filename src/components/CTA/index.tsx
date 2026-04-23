@@ -29,7 +29,7 @@ export const CTA = ({ id }: Props) => {
               href={whatsappLink}
               className="flex items-center gap-4 group"
             >
-              <div className="w-14 h-14 flex items-center justify-center bg-secondary text-on-secondary-fixed rounded-lg group-hover:brightness-110 transition">
+              <div className="w-14 h-14 flex text-white items-center justify-center bg-secondary rounded-lg group-hover:brightness-110 transition">
                 <CellPhone/>
               </div>
               <div className="text-left">
@@ -49,7 +49,7 @@ export const CTA = ({ id }: Props) => {
                 href={`mailto:${email}`}
                 className="flex items-center gap-4 group"
               >
-                <div className="w-14 h-14 flex items-center justify-center bg-secondary text-on-secondary-fixed rounded-lg group-hover:brightness-110 transition">
+                <div className="w-14 h-14 text-white flex items-center justify-center bg-secondary rounded-lg group-hover:brightness-110 transition">
                   <Mail/>
                 </div>
                 <div className="text-left">

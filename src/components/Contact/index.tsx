@@ -153,7 +153,7 @@ ${form.message}
                             Enviar por WhatsApp
                         </button>
 
-                        <p className="text-xs text-gray-500 mt-2">
+                        <p className="text-xs text-gray-500 mt-2 text-center">
                             Serás redirigido a WhatsApp para completar tu consulta.
                         </p>
                     </form>

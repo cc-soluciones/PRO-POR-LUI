@@ -34,3 +34,11 @@ export const socialLinks = {
     instagram: "https://www.instagram.com/luis_correa__contador?utm_source=qr&igsh=b2tyZ2Zmd3Nmdmky",
     facebook: "https://www.facebook.com/share/17UqN84iLT/",
 };
+
+export const socios = [
+    {
+        name: "Museo Educativo de Autos",
+        img: "/fundacion.webp",
+        instagram: "https://www.instagram.com/museo_educativo_de_autos_?igsh=MWs5NDBoajNvZ2VqdA%3D%3D"
+    }
+];
