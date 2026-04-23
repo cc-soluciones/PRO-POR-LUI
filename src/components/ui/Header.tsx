@@ -54,7 +54,7 @@ export const Header = () => {
                 });
             },
             {
-                threshold: isMobile ? 0.2 : 0.3,
+                threshold: 0,
                 rootMargin: isMobile
                     ? "-80px 0px -50% 0px"
                     : "-100px 0px -30% 0px",

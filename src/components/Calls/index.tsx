@@ -83,7 +83,7 @@ export const Calls = ({
                             alt={img.alt}                            
                             width={1400}
                             height={800}
-                            className="w-full h-auto rounded-xl shadow-lg hover:scale-[1.01] transition duration-300 cursor-pointer"
+                            className="w-full h-auto rounded-xl shadow-lg hover:scale-[1.01] transition duration-300 cursor-pointe"
                             />
                         </a>
                         ))}

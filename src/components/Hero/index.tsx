@@ -21,7 +21,7 @@ export const Hero = ({
             <div className="container max-w-7xl mx-auto px-8 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
                 <div className="lg:col-span-8">
                     <span className="inline-block font-label text-secondary-fixed font-semibold uppercase tracking-[0.2em] mb-6">
-                        Experiencia y visión estratégica
+                        Probando y visión estratégica
                     </span>
                     <h1 className="text-5xl md:text-7xl font-headline font-extrabold text-white leading-[1.1] tracking-tight mb-8">
                         Impulsa tu negocio con financiamiento, gestión y estrategia clara
