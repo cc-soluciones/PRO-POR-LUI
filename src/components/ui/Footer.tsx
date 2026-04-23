@@ -1,8 +1,8 @@
 import { nameCompany, copyright, address, descriptionFooter, navItem } from "@/constants/general";
 import InstagramIcon from "@/assets/InstagramIcon";
 import FacebookIcon from "@/assets/FacebookIcon";
-import LinkedInIcon from "@/assets/LinkedInIcon";
-import { socialLinks } from "@/constants/general";
+import Mail from "@/assets/Mail";
+import { socialLinks, email } from "@/constants/general";
 
 export const Footer = () => {
     return (
@@ -56,13 +56,7 @@ export const Footer = () => {
                         <a
                             href={socialLinks.instagram}
                             target="_blank"
-                            className="
-                                text-slate-300 
-                                transition 
-                                hover:text-pink-500 
-                                active:text-pink-500
-                                md:hover:text-pink-500
-                            "
+                            className="text-slate-300 transition duration-200 hover:text-pink-500 hover:scale-110 active:text-pink-500 md:hover:text-pink-500"
                         >
                             <InstagramIcon />
                         </a>
@@ -70,29 +64,17 @@ export const Footer = () => {
                         <a
                             href={socialLinks.facebook}
                             target="_blank"
-                            className="
-                                text-slate-300 
-                                transition 
-                                hover:text-blue-500 
-                                active:text-blue-500
-                                md:hover:text-blue-500
-                            "
+                            className="text-slate-300 transition duration-200 hover:text-blue-500 hover:scale-110 active:text-blue-500 md:hover:text-blue-500"
                         >
                             <FacebookIcon />
                         </a>
 
+                        {/* EMAIL */}
                         <a
-                            href={socialLinks.linkedin}
-                            target="_blank"
-                            className="
-                                text-slate-300 
-                                transition 
-                                hover:text-sky-500 
-                                active:text-sky-500
-                                md:hover:text-sky-500
-                            "
+                            href={`mailto:${email}`}
+                            className="text-slate-300 transition duration-200 hover:text-yellow-400 hover:scale-110 active:text-yellow-400 md:hover:text-yellow-400"
                         >
-                            <LinkedInIcon />
+                            <Mail />
                         </a>
 
                     </div>

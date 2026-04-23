@@ -31,7 +31,6 @@ export const descriptionFooter = "Asesoría integral en contabilidad y gestión 
 
 export const whatsappLink = `https://wa.me/${phone}`;
 export const socialLinks = {
-    instagram: "https://instagram.com/tu_usuario",
-    facebook: "https://facebook.com/tu_pagina",
-    linkedin: "https://linkedin.com/company/tu_empresa",
+    instagram: "https://www.instagram.com/luis_correa__contador?utm_source=qr&igsh=b2tyZ2Zmd3Nmdmky",
+    facebook: "https://www.facebook.com/share/17UqN84iLT/",
 };
