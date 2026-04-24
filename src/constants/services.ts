@@ -58,3 +58,9 @@ export const services = {
     },
   ],
 };
+
+export const pricingImages = [
+  "price1.webp",
+  "price2.webp",
+  "price3.webp",
+];
