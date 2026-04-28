@@ -11,7 +11,7 @@ export const Hero = ({
         <section id={id} className="relative pt-20 overflow-hidden bg-gradient-to-b from-[#0d89f5] to-[#2a80f0] min-h-[921px] flex items-center">
             <div className="absolute inset-0 z-0">
                 <img
-                    alt=""
+                    alt="asesoría empresarial, gestión financiera y planificación de negocios en Chile"
                     className="w-full h-full object-cover opacity-40 mix-blend-overlay"
                     data-alt="professional workspace with architectural drawings, financial charts, and a high-end fountain pen on a clean marble desk with gold accents"
                     src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3ZpaYTlXTWzYlrs0refnnT_zhUIRC8hBSZDuV_YBzAe2XvRo3uYGDS_CyWIVTMYgTje2PecpyhARE7OH6SsbgFUtRBl4lKdxtCbjcOk1V3qU7-wNojtkA-AW8XGgzbDdL__ppnwbiD03fvLAIObOHQ4eHOGswALPnvA66M2fBrIMlc7ZphDhA-389QhZ5X-wPy0Z4DZPpu0ssBOzeBQmp3eCuUYToYU_FTBU8ab_2-dZoEeCBBB2F_smukmELEC5KVv3ZwT4Npo1r"

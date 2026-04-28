@@ -116,7 +116,7 @@ export const Services = () => {
                                 />
 
                                 <div className="p-6 flex justify-center">
-                                    <span className="text-secondary font-label font-bold uppercase tracking-widest text-sm flex items-center gap-2 group-hover:text-white transition">
+                                    <span className="text-secondary font-label font-bold uppercase tracking-widest text-sm flex items-center gap-2">
                                         Ver detalle →
                                     </span>
                                 </div>
